@@ -45,7 +45,7 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              Text(widget.title,style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),),
+              Text(widget.title,style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600,color: Colors.red),),
               SizedBox(height: 15,),
               Text(widget.descriptions,style: TextStyle(fontSize: 14),textAlign: TextAlign.center,),
               SizedBox(height: 22,),
