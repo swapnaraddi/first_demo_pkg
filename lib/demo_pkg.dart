@@ -20,7 +20,7 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
         borderRadius: BorderRadius.circular(Constants.padding),
       ),
       elevation: 0,
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.grey,
       child: contentBox(context),
     );
   }
@@ -60,18 +60,18 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
             ],
           ),
         ),
-        Positioned(
-          left: Constants.padding,
-          right: Constants.padding,
-          child: CircleAvatar(
-            backgroundColor: Colors.transparent,
-            radius: Constants.avatarRadius,
-            child: ClipRRect(
-                borderRadius: BorderRadius.all(Radius.circular(Constants.avatarRadius)),
-                child: Image.asset("assets/images/audio-play.png")
-            ),
-          ),
-        ),
+        // Positioned(
+        //   left: Constants.padding,
+        //   right: Constants.padding,
+        //   child: CircleAvatar(
+        //     backgroundColor: Colors.transparent,
+        //     radius: Constants.avatarRadius,
+        //     child: ClipRRect(
+        //         borderRadius: BorderRadius.all(Radius.circular(Constants.avatarRadius)),
+        //         child: Image.asset("assets/images/audio-play.png")
+        //     ),
+        //   ),
+        // ),
       ],
     );
   }
