@@ -60,18 +60,18 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
             ],
           ),
         ),
-        // Positioned(
-        //   left: Constants.padding,
-        //   right: Constants.padding,
-        //   child: CircleAvatar(
-        //     backgroundColor: Colors.transparent,
-        //     radius: Constants.avatarRadius,
-        //     child: ClipRRect(
-        //         borderRadius: BorderRadius.all(Radius.circular(Constants.avatarRadius)),
-        //         child: Image.asset("assets/images/audio_play.png")
-        //     ),
-        //   ),
-        // ),
+        Positioned(
+          left: Constants.padding,
+          right: Constants.padding,
+          child: CircleAvatar(
+            backgroundColor: Colors.transparent,
+            radius: Constants.avatarRadius,
+            child: ClipRRect(
+                borderRadius: BorderRadius.all(Radius.circular(Constants.avatarRadius)),
+                child: Image.asset("assets/images/audio-play.png")
+            ),
+          ),
+        ),
       ],
     );
   }
